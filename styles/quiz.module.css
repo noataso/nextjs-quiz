@@ -1,0 +1,31 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:25%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.quiz{
+    margin-bottom:20px;
+}
+
+.questionSection{
+    padding: 15px;
+    background: #000;
+    color:#fff;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+
+.question{
+    font-size: 1.6rem;
+}
+
+.answer{
+    font-size: 1.6rem;
+    margin-right:10px;
+    border-radius:5px;
+    background:pink;
+}
